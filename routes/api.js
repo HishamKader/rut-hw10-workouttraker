@@ -26,8 +26,8 @@ router.get("/api/workouts/range", (req, res) => {
 })
 
 router.put("/api/workouts/:id", (req, res) => {
-    Workout.findByIdAndUpdate(res.params.id, {
-        $push:{exercises: res.body}
+    Workout.findByIdAndUpdate(req.params.id, {
+        $push:{exercises: req.body}
     },{
         useFindAndModify:false
     }).then(results => {
