@@ -9,7 +9,7 @@ The application allows a user to:
 * View workouts in a dashboard
 
 ## How to use this application
-[Follow this link]() to the deployed application 
+[Follow this link](https://calm-scrubland-35197.herokuapp.com/) to the deployed application 
 * Use the "New Workout" button to create a new workout
 * Select between Cardio or Resistance workouts and then fill out the form.
 * Click "Add Exercise" to add the exercise, click "Complete" to complete this exercise.
